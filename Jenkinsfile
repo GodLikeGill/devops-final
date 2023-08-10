@@ -25,7 +25,7 @@ pipeline {
         stage('Push Docker Image to Docker Hub') {
             environment {
                 // Define your Docker Hub username and repository name
-                DOCKER_HUB_USERNAME = 'JatinSinghGill'
+                DOCKER_HUB_USERNAME = 'jatinsinghgill'
                 DOCKER_HUB_REPOSITORY = 'my_web_app_image'
                 // Define your Docker Hub password
                 DOCKER_HUB_PASSWORD = 'Coolhu88!'
